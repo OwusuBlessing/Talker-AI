@@ -7,7 +7,7 @@ echo "Make sure you have ModelScope installed: pip install modelscope"
 echo "请确保已安装 ModelScope：pip install modelscope"
 
 # Download models using ModelScope
-python scripts/modelscope_download.py
+python modelscope_download.py
 if [ $? -ne 0 ]; then
   echo "Failed to download models from ModelScope. Please check the scripts/modelscope_download.py script or your network connection."
   echo "从 ModelScope 下载模型失败，请检查脚本 scripts/modelscope_download.py 或网络连接。"
